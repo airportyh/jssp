@@ -1,0 +1,14 @@
+{
+  "name": "jssp",
+  "version": "0.0.0",
+  "description": "JavaScript Server Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toby Ho",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "~0.4.0"
+  }
+}

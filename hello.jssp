@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>Hello, <%= this.query.name || 'World' %>!</h1>
+  <p>The time is <%= new Date() %>.</p>
+  <p>Random number is <%= Math.floor(10 * Math.random()) %>.</p>
+  <p>The method is <%= this.method %>.</p>
+  <p>URL is <%= this.url %>.</p>
+  <p>Path is <%= this.path %>.</p>
+  <form action="/hello" method="GET">
+    <label>What is your name?</label>
+    <input type="text" name="name">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
